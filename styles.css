@@ -32,11 +32,13 @@ body {
     font-size: 30px;
 }
 
-.btn:hover {
+@media (hover: hover){
+    .btn:hover {
     transform: scale(1.1);
     border-width: 7px;
     border-color: rgba(0, 89, 255, 0.884);
     background-color: rgb(206, 233, 89);
+}
 }
 .btn:active {
     border-width: 7px;
@@ -143,6 +145,7 @@ body {
     height: 12%;
     top: 85%;
 }
+
 
 
 
